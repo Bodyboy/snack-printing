@@ -1,0 +1,36 @@
+{
+  "restaurant": {
+    "name": "Snack Direct",
+    "currency": "DA",
+    "ticketFooter": "Bon appetit !"
+  },
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "items": [
+        { "id": "cheese-burger", "name": "Cheese Burger", "description": "Steak hache, cheddar, cornichons, sauce maison", "price": 450 },
+        { "id": "double-beef", "name": "Double Beef", "description": "Deux steaks, oignons caramélisés, cheddar", "price": 620 },
+        { "id": "chicken-crisp", "name": "Chicken Crisp", "description": "Filet de poulet pané, salade, sauce fromagère", "price": 480 }
+      ]
+    },
+    {
+      "id": "tacos",
+      "name": "Tacos",
+      "items": [
+        { "id": "tacos-poulet", "name": "Tacos Poulet", "description": "Poulet grillé, frites, fromage fondu, sauce algérienne", "price": 500 },
+        { "id": "tacos-viande", "name": "Tacos Viande Hachée", "description": "Viande hachée épicée, frites, fromage, sauce blanche", "price": 550 },
+        { "id": "tacos-mixte", "name": "Tacos Mixte", "description": "Poulet + viande hachée, double fromage", "price": 600 }
+      ]
+    },
+    {
+      "id": "boissons",
+      "name": "Boissons",
+      "items": [
+        { "id": "coca-33", "name": "Coca-Cola 33cl", "description": "Bien frais", "price": 100 },
+        { "id": "jus-orange", "name": "Jus d'orange", "description": "Pressé maison", "price": 150 },
+        { "id": "eau-50", "name": "Eau minérale", "description": "50cl", "price": 60 }
+      ]
+    }
+  ]
+}

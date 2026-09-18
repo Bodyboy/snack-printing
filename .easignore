@@ -1,0 +1,6 @@
+.gradle-user/
+.gradle/
+android/.gradle/
+.expo/
+.expo-export/
+node_modules/

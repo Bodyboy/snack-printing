@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Snack Direct",
+    "slug": "snack-direct",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-dev-client",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24
+          }
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.ryad.snackdirect",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "923700a4-869f-47f9-be6e-d3fc2e163d14"
+      }
+    }
+  }
+}
