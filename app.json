@@ -1,7 +1,13 @@
 {
   "expo": {
-    "name": "Snack Direct",
+    "icon": "./assets/icon.png",
+    "name": "Point Dwitch",
     "slug": "snack-direct",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -18,6 +24,10 @@
     ],
     "android": {
       "package": "com.ryad.snackdirect",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f9d423"
+      },
       "permissions": [
         "BLUETOOTH",
         "BLUETOOTH_ADMIN",

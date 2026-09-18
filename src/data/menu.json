@@ -1,35 +1,116 @@
 {
   "restaurant": {
-    "name": "Snack Direct",
-    "currency": "DA",
-    "ticketFooter": "Bon appetit !"
+    "name": "POINT DWICH",
+    "currency": "EUR",
+    "menuSupplement": 250,
+    "ticketFooter": "Bon appétit !"
   },
   "categories": [
     {
-      "id": "burgers",
-      "name": "Burgers",
+      "id": "kebabs",
+      "name": "Kebabs",
       "items": [
-        { "id": "cheese-burger", "name": "Cheese Burger", "description": "Steak hache, cheddar, cornichons, sauce maison", "price": 450 },
-        { "id": "double-beef", "name": "Double Beef", "description": "Deux steaks, oignons caramélisés, cheddar", "price": 620 },
-        { "id": "chicken-crisp", "name": "Chicken Crisp", "description": "Filet de poulet pané, salade, sauce fromagère", "price": 480 }
+        { "id": "kebab-classic", "name": "Kebab Classic", "description": "Salade, tomate, oignon, sauce au choix", "price": 700, "menuEligible": true },
+        { "id": "kebab-galette", "name": "Kebab Galette", "description": "Salade, tomate, oignon, sauce au choix", "price": 700, "menuEligible": true }
+      ]
+    },
+    {
+      "id": "smash",
+      "name": "Smash",
+      "items": [
+        { "id": "smash-chicken-house", "name": "Smash Chicken House", "description": "Potato bun, double steak ou chicken, cheddar, sauce smash", "price": 950, "menuEligible": true },
+        { "id": "smash-chicken-pepper", "name": "Smash Chicken Pepper", "description": "Potato bun, double steak ou chicken, cheddar, sauce pepper", "price": 950, "menuEligible": true },
+        { "id": "green-smash", "name": "Green Smash", "description": "Potato bun, double steak, cheddar, green sauce, cream cheese", "price": 950, "menuEligible": true },
+        { "id": "chicken-spicy", "name": "Chicken Spicy", "description": "Potato bun, chicken, cheddar, sauce spicy", "price": 950, "menuEligible": true },
+        { "id": "texas-smash", "name": "Texas Smash", "description": "Potato bun, double steak, cheddar, sauce smash, oignons confits", "price": 1050, "menuEligible": true },
+        { "id": "suisse-smash", "name": "Suisse Smash", "description": "Potato bun, double steak, cheddar, sauce smash, oignons crispy", "price": 1050, "menuEligible": true }
       ]
     },
     {
       "id": "tacos",
       "name": "Tacos",
       "items": [
-        { "id": "tacos-poulet", "name": "Tacos Poulet", "description": "Poulet grillé, frites, fromage fondu, sauce algérienne", "price": 500 },
-        { "id": "tacos-viande", "name": "Tacos Viande Hachée", "description": "Viande hachée épicée, frites, fromage, sauce blanche", "price": 550 },
-        { "id": "tacos-mixte", "name": "Tacos Mixte", "description": "Poulet + viande hachée, double fromage", "price": 600 }
+        { "id": "tacos-1-viande", "name": "Tacos 1 viande", "description": "Viande au choix, frites et sauce fromagère", "price": 650, "menuEligible": true },
+        { "id": "tacos-2-viandes", "name": "Tacos 2 viandes", "description": "Viandes au choix, frites et sauce fromagère", "price": 800, "menuEligible": true },
+        { "id": "tacos-3-viandes", "name": "Tacos 3 viandes", "description": "Viandes au choix, frites et sauce fromagère", "price": 900, "menuEligible": true },
+        { "id": "bowl-1-viande", "name": "Bowl 1 viande", "description": "Viande au choix", "price": 650, "menuEligible": true }
       ]
     },
     {
-      "id": "boissons",
-      "name": "Boissons",
+      "id": "baguettes",
+      "name": "Baguettes",
       "items": [
-        { "id": "coca-33", "name": "Coca-Cola 33cl", "description": "Bien frais", "price": 100 },
-        { "id": "jus-orange", "name": "Jus d'orange", "description": "Pressé maison", "price": 150 },
-        { "id": "eau-50", "name": "Eau minérale", "description": "50cl", "price": 60 }
+        { "id": "baguette-americain", "name": "Américain", "description": "Crudités, steak, fromage râpé", "price": 450, "menuEligible": true },
+        { "id": "baguette-escalope", "name": "Escalope", "description": "Crudités, escalope, fromage", "price": 450, "menuEligible": true },
+        { "id": "baguette-cordon-bleu", "name": "Cordon Bleu", "description": "Crudités, cordon bleu, fromage", "price": 650, "menuEligible": true },
+        { "id": "baguette-tenders", "name": "Tenders", "description": "Crudités, tenders, fromage", "price": 650, "menuEligible": true },
+        { "id": "baguette-royal", "name": "Royal", "description": "Crudités, steak, oeuf, bacon", "price": 750, "menuEligible": true },
+        { "id": "frite-seul", "name": "Frites seules", "description": "", "price": 450}
+      ]
+    },
+    // {
+    //   "id": "wraps",
+    //   "name": "Wraps",
+    //   "items": [
+    //     { "id": "wrap-maison", "name": "Wrap maison", "description": "Sauce et garniture au choix", "price": 450, "menuEligible": true }
+    //   ]
+    // },
+    {
+      "id": "tex-mex",
+      "name": "Tex-Mex",
+      "items": [
+        { "id": "nuggets-6", "name": "Nuggets x6", "description": "", "price": 500, "menuEligible": true  },
+        { "id": "nuggets-12", "name": "Nuggets x12", "description": "", "price": 1000, "menuEligible": true },
+        { "id": "mozza-sticks-6", "name": "Mozza Sticks x6", "description": "", "price": 650, "menuEligible": true },
+        { "id": "mozza-sticks-12", "name": "Mozza Sticks x12", "description": "", "price": 1000, "menuEligible": true },
+        { "id": "camembert-6", "name": "Bouchées camembert x6", "description": "", "price": 650, "menuEligible": true },
+        { "id": "camembert-12", "name": "Bouchées camembert x12", "description": "", "price": 1000, "menuEligible": true },
+        { "id": "onion-rings-6", "name": "Onion Rings x6", "description": "", "price": 650, "menuEligible": true },
+        { "id": "onion-rings-12", "name": "Onion Rings x12", "description": "", "price": 1000, "menuEligible": true },
+        { "id": "tenders-4", "name": "Tenders x4", "description": "", "price": 700, "menuEligible": true },
+        { "id": "tenders-8", "name": "Tenders x8", "description": "", "price": 1200, "menuEligible": true },
+        { "id": "tenders-roules-3", "name": "Tenders roulés x3", "description": "", "price": 700, "menuEligible": true },
+        { "id": "tenders-roules-5", "name": "Tenders roulés x5", "description": "", "price": 950, "menuEligible": true }
+      ]
+    },
+    {
+      "id": "buckets",
+      "name": "Buckets",
+      "items": [
+        { "id": "bucket-2", "name": "Bucket 2 personnes", "description": "8 tenders, 2 frites, 2 canettes au choix", "price": 1550 },
+        { "id": "bucket-4", "name": "Bucket 4 personnes", "description": "16 tenders, 4 frites, 1 bouteille au choix", "price": 2550 },
+        { "id": "bucket-6", "name": "Bucket 6 personnes", "description": "24 tenders, 6 frites, 1 bouteille au choix", "price": 3450 }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        { "id": "glace-500", "name": "Glace 500 ml", "description": "", "price": 750 },
+        { "id": "glace-100", "name": "Glace 100 ml", "description": "", "price": 350 },
+        { "id": "tiramisu", "name": "Tiramisu", "description": "", "price": 300 },
+        { "id": "tarte-daim", "name": "Tarte Daim", "description": "", "price": 300 }
+      ]
+    },
+    {
+      "id": "enfant",
+      "name": "Enfant",
+      "items": [
+        { "id": "menu-enfant", "name": "Menu enfant", "description": "1 cheese ou 4 nuggets ou 2 tenders, 1 frite, jus d'orange ou Pom'Potes", "price": 600 }
+      ]
+    },
+    {
+      "id": "supplements",
+      "name": "Suppléments",
+      "items": [
+        { "id": "supp-frites", "name": "Supplément frites", "description": "", "price": 50 },
+        { "id": "supp-chevre", "name": "Supplément chèvre", "description": "", "price": 100 },
+        { "id": "supp-camembert", "name": "Supplément camembert", "description": "", "price": 100 },
+        { "id": "supp-cheddar", "name": "Supplément cheddar", "description": "", "price": 100 },
+        { "id": "supp-raclette", "name": "Supplément raclette", "description": "", "price": 100 },
+        { "id": "supp-vache-qui-rit", "name": "Supplément vache qui rit", "description": "", "price": 100 },
+        { "id": "supp-fines-herbes", "name": "Supplément fines herbes", "description": "", "price": 100 },
+        { "id": "supp-oeuf", "name": "Supplément oeuf", "description": "", "price": 100 }
       ]
     }
   ]
