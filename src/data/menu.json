@@ -96,7 +96,9 @@
       "id": "enfant",
       "name": "Enfant",
       "items": [
-        { "id": "menu-enfant", "name": "Menu enfant", "description": "1 cheese ou 4 nuggets ou 2 tenders, 1 frite, jus d'orange ou Pom'Potes", "price": 600 }
+        { "id": "menu-enfant-cheese", "name": "Menu enfant", "description": "1 cheese, 1 frite, jus d'orange ou Pom'Potes", "price": 600 },
+         { "id": "menu-enfant-nuggets", "name": "Menu enfant", "description": "4 nuggets, 1 frite, jus d'orange ou Pom'Potes", "price": 600 },
+          { "id": "menu-enfant-tenders", "name": "Menu enfant", "description": "2 tenders, 1 frite, jus d'orange ou Pom'Potes", "price": 600 }
       ]
     },
     {
